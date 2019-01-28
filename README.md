@@ -25,7 +25,7 @@ The command-line installer takes the following properties:
 - `SQL_PASSWORD`=[omit for `TrustedConnection`] | SQL Server Authentication password, e.g. `Password123`.
 
 
-### Initial installation only
+### (Optional) initial installation only
 - `WEBSITE_BINDING_API`=Microsoft Internet Information Services' (IIS) local binding for the API, e.g. `api.cloudportal.local`.
 - `WEBSITE_BINDING_APP`=Microsoft Internet Information Services' (IIS) local binding for the App, e.g. `app.cloudportal.local`.
 - `APP_CLIENT_ID`=`C5F1710B-4F5F-4634-99B6-C1F14083FAD7`.

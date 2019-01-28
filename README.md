@@ -45,13 +45,13 @@ Remove property/value pairs from the following command according to your configu
 
 ### Cloutility + SQL on same host-machine - SQL Server account with Windows Authentication
 ```
-"Cloutility-v1.0.3649.0.exe" /qn USER_ACCOUNT_TYPE=currentUser USER_NAME=Administrator USER_PASSWORD=Password123 SERVER_PROP=.\SQLEXPRESS2017 PORT_PROP=NULL DATABASE_PROP=Cloutility SQL_AUTHORIZATION_STYLE=TrustedConnection /L* "C:\Cloutility-install.log"
+"Cloutility-v1.0.3649.0.exe" /qn USER_ACCOUNT_TYPE=currentAccount USER_NAME=Administrator USER_PASSWORD=Password123 SERVER_PROP=.\SQLEXPRESS2017 PORT_PROP=NULL DATABASE_PROP=Cloutility SQL_AUTHORIZATION_STYLE=TrustedConnection /L* "C:\Cloutility-install.log"
 ```
 
 ```
-"Cloutility-v1.0.3649.0.exe" /qn USER_ACCOUNT_TYPE=currentUser USER_NAME=Administrator USER_PASSWORD=Password123 SERVER_PROP=.\SQLEXPRESS2017 PORT_PROP=NULL DATABASE_PROP=Cloutility SQL_AUTHORIZATION_STYLE=TrustedConnection WEBSITE_BINDING_API=api.cloudportal.local WEBSITE_BINDING_APP=app.cloudportal.local /L* "C:\Cloutility-install.log"
+"Cloutility-v1.0.3649.0.exe" /qn USER_ACCOUNT_TYPE=currentAccount USER_NAME=Administrator USER_PASSWORD=Password123 SERVER_PROP=.\SQLEXPRESS2017 PORT_PROP=NULL DATABASE_PROP=Cloutility SQL_AUTHORIZATION_STYLE=TrustedConnection WEBSITE_BINDING_API=api.cloudportal.local WEBSITE_BINDING_APP=app.cloudportal.local /L* "C:\Cloutility-install.log"
 ```
 
 ```
-"Cloutility-v1.0.3649.0.exe" /qn USER_ACCOUNT_TYPE=currentUser USER_NAME=Administrator USER_PASSWORD=Password123 SERVER_PROP=.\SQLEXPRESS2017 PORT_PROP=NULL DATABASE_PROP=Cloutility SQL_AUTHORIZATION_STYLE=TrustedConnection WEBSITE_BINDING_API=api.cloudportal-changed.local WEBSITE_BINDING_APP=app.cloudportal-changed.local APP_CLIENT_ID=C5F1710B-4F5F-4634-99B6-C1F14083FAD7 /L* "C:\Cloutility-install.log"
+"Cloutility-v1.0.3649.0.exe" /qn USER_ACCOUNT_TYPE=currentAccount USER_NAME=Administrator USER_PASSWORD=Password123 SERVER_PROP=.\SQLEXPRESS2017 PORT_PROP=NULL DATABASE_PROP=Cloutility SQL_AUTHORIZATION_STYLE=TrustedConnection WEBSITE_BINDING_API=api.cloudportal-changed.local WEBSITE_BINDING_APP=app.cloudportal-changed.local APP_CLIENT_ID=C5F1710B-4F5F-4634-99B6-C1F14083FAD7 /L* "C:\Cloutility-install.log"
 ```

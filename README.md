@@ -11,8 +11,6 @@ IMPORTANT: Please ensure that values are written immediately after the "=", i.e.
 
 The command-line installer takes the following properties:
 
-
-### Initial installation and updates
 - `USER_ACCOUNT_TYPE`=`system` | `currentAccount`.
 - `DOMAIN_NAME`=[omit for `system` or Windows user account] | Microsoft Active Directory domain name, e.g. `MYDOMAIN`.
 - `USER_NAME`=[omit for `system`] | Name of Microsoft Windows or Active Directory user account, e.g. `Administrator`.
